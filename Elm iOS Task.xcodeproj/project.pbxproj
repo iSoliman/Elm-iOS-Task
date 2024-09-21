@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86668F042C9F1036009FF8CB /* Elm_iOS_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F032C9F1036009FF8CB /* Elm_iOS_TaskApp.swift */; };
+		86668F062C9F1036009FF8CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F052C9F1036009FF8CB /* ContentView.swift */; };
+		86668F082C9F1038009FF8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86668F072C9F1038009FF8CB /* Assets.xcassets */; };
+		86668F0B2C9F1038009FF8CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86668F0A2C9F1038009FF8CB /* Preview Assets.xcassets */; };
+		86668F152C9F1039009FF8CB /* Elm_iOS_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F142C9F1039009FF8CB /* Elm_iOS_TaskTests.swift */; };
+		86668F1F2C9F1039009FF8CB /* Elm_iOS_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F1E2C9F1039009FF8CB /* Elm_iOS_TaskUITests.swift */; };
+		86668F212C9F1039009FF8CB /* Elm_iOS_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F202C9F1039009FF8CB /* Elm_iOS_TaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86668F112C9F1039009FF8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86668EF82C9F1036009FF8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86668EFF2C9F1036009FF8CB;
+			remoteInfo = "Elm iOS Task";
+		};
+		86668F1B2C9F1039009FF8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86668EF82C9F1036009FF8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86668EFF2C9F1036009FF8CB;
+			remoteInfo = "Elm iOS Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86668F002C9F1036009FF8CB /* Elm iOS Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elm iOS Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86668F032C9F1036009FF8CB /* Elm_iOS_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elm_iOS_TaskApp.swift; sourceTree = "<group>"; };
+		86668F052C9F1036009FF8CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86668F072C9F1038009FF8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86668F0A2C9F1038009FF8CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86668F102C9F1039009FF8CB /* Elm iOS TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elm iOS TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86668F142C9F1039009FF8CB /* Elm_iOS_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elm_iOS_TaskTests.swift; sourceTree = "<group>"; };
+		86668F1A2C9F1039009FF8CB /* Elm iOS TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elm iOS TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86668F1E2C9F1039009FF8CB /* Elm_iOS_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elm_iOS_TaskUITests.swift; sourceTree = "<group>"; };
+		86668F202C9F1039009FF8CB /* Elm_iOS_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elm_iOS_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86668EFD2C9F1036009FF8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86668F0D2C9F1039009FF8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86668F172C9F1039009FF8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86668EF72C9F1036009FF8CB = {
+			isa = PBXGroup;
+			children = (
+				86668F022C9F1036009FF8CB /* Elm iOS Task */,
+				86668F132C9F1039009FF8CB /* Elm iOS TaskTests */,
+				86668F1D2C9F1039009FF8CB /* Elm iOS TaskUITests */,
+				86668F012C9F1036009FF8CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86668F012C9F1036009FF8CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86668F002C9F1036009FF8CB /* Elm iOS Task.app */,
+				86668F102C9F1039009FF8CB /* Elm iOS TaskTests.xctest */,
+				86668F1A2C9F1039009FF8CB /* Elm iOS TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86668F022C9F1036009FF8CB /* Elm iOS Task */ = {
+			isa = PBXGroup;
+			children = (
+				86668F032C9F1036009FF8CB /* Elm_iOS_TaskApp.swift */,
+				86668F052C9F1036009FF8CB /* ContentView.swift */,
+				86668F072C9F1038009FF8CB /* Assets.xcassets */,
+				86668F092C9F1038009FF8CB /* Preview Content */,
+			);
+			path = "Elm iOS Task";
+			sourceTree = "<group>";
+		};
+		86668F092C9F1038009FF8CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86668F0A2C9F1038009FF8CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86668F132C9F1039009FF8CB /* Elm iOS TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				86668F142C9F1039009FF8CB /* Elm_iOS_TaskTests.swift */,
+			);
+			path = "Elm iOS TaskTests";
+			sourceTree = "<group>";
+		};
+		86668F1D2C9F1039009FF8CB /* Elm iOS TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86668F1E2C9F1039009FF8CB /* Elm_iOS_TaskUITests.swift */,
+				86668F202C9F1039009FF8CB /* Elm_iOS_TaskUITestsLaunchTests.swift */,
+			);
+			path = "Elm iOS TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86668EFF2C9F1036009FF8CB /* Elm iOS Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86668F242C9F1039009FF8CB /* Build configuration list for PBXNativeTarget "Elm iOS Task" */;
+			buildPhases = (
+				86668EFC2C9F1036009FF8CB /* Sources */,
+				86668EFD2C9F1036009FF8CB /* Frameworks */,
+				86668EFE2C9F1036009FF8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elm iOS Task";
+			productName = "Elm iOS Task";
+			productReference = 86668F002C9F1036009FF8CB /* Elm iOS Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86668F0F2C9F1039009FF8CB /* Elm iOS TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86668F272C9F1039009FF8CB /* Build configuration list for PBXNativeTarget "Elm iOS TaskTests" */;
+			buildPhases = (
+				86668F0C2C9F1039009FF8CB /* Sources */,
+				86668F0D2C9F1039009FF8CB /* Frameworks */,
+				86668F0E2C9F1039009FF8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86668F122C9F1039009FF8CB /* PBXTargetDependency */,
+			);
+			name = "Elm iOS TaskTests";
+			productName = "Elm iOS TaskTests";
+			productReference = 86668F102C9F1039009FF8CB /* Elm iOS TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86668F192C9F1039009FF8CB /* Elm iOS TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86668F2A2C9F1039009FF8CB /* Build configuration list for PBXNativeTarget "Elm iOS TaskUITests" */;
+			buildPhases = (
+				86668F162C9F1039009FF8CB /* Sources */,
+				86668F172C9F1039009FF8CB /* Frameworks */,
+				86668F182C9F1039009FF8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86668F1C2C9F1039009FF8CB /* PBXTargetDependency */,
+			);
+			name = "Elm iOS TaskUITests";
+			productName = "Elm iOS TaskUITests";
+			productReference = 86668F1A2C9F1039009FF8CB /* Elm iOS TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86668EF82C9F1036009FF8CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					86668EFF2C9F1036009FF8CB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					86668F0F2C9F1039009FF8CB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 86668EFF2C9F1036009FF8CB;
+					};
+					86668F192C9F1039009FF8CB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 86668EFF2C9F1036009FF8CB;
+					};
+				};
+			};
+			buildConfigurationList = 86668EFB2C9F1036009FF8CB /* Build configuration list for PBXProject "Elm iOS Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86668EF72C9F1036009FF8CB;
+			productRefGroup = 86668F012C9F1036009FF8CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86668EFF2C9F1036009FF8CB /* Elm iOS Task */,
+				86668F0F2C9F1039009FF8CB /* Elm iOS TaskTests */,
+				86668F192C9F1039009FF8CB /* Elm iOS TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86668EFE2C9F1036009FF8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86668F0B2C9F1038009FF8CB /* Preview Assets.xcassets in Resources */,
+				86668F082C9F1038009FF8CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86668F0E2C9F1039009FF8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86668F182C9F1039009FF8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86668EFC2C9F1036009FF8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86668F062C9F1036009FF8CB /* ContentView.swift in Sources */,
+				86668F042C9F1036009FF8CB /* Elm_iOS_TaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86668F0C2C9F1039009FF8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86668F152C9F1039009FF8CB /* Elm_iOS_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86668F162C9F1039009FF8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86668F212C9F1039009FF8CB /* Elm_iOS_TaskUITestsLaunchTests.swift in Sources */,
+				86668F1F2C9F1039009FF8CB /* Elm_iOS_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86668F122C9F1039009FF8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86668EFF2C9F1036009FF8CB /* Elm iOS Task */;
+			targetProxy = 86668F112C9F1039009FF8CB /* PBXContainerItemProxy */;
+		};
+		86668F1C2C9F1039009FF8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86668EFF2C9F1036009FF8CB /* Elm iOS Task */;
+			targetProxy = 86668F1B2C9F1039009FF8CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86668F222C9F1039009FF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86668F232C9F1039009FF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86668F252C9F1039009FF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elm iOS Task/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Elm-iOS-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86668F262C9F1039009FF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elm iOS Task/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Elm-iOS-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86668F282C9F1039009FF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Elm-iOS-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elm iOS Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elm iOS Task";
+			};
+			name = Debug;
+		};
+		86668F292C9F1039009FF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Elm-iOS-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elm iOS Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elm iOS Task";
+			};
+			name = Release;
+		};
+		86668F2B2C9F1039009FF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Elm-iOS-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Elm iOS Task";
+			};
+			name = Debug;
+		};
+		86668F2C2C9F1039009FF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Elm-iOS-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Elm iOS Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86668EFB2C9F1036009FF8CB /* Build configuration list for PBXProject "Elm iOS Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86668F222C9F1039009FF8CB /* Debug */,
+				86668F232C9F1039009FF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86668F242C9F1039009FF8CB /* Build configuration list for PBXNativeTarget "Elm iOS Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86668F252C9F1039009FF8CB /* Debug */,
+				86668F262C9F1039009FF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86668F272C9F1039009FF8CB /* Build configuration list for PBXNativeTarget "Elm iOS TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86668F282C9F1039009FF8CB /* Debug */,
+				86668F292C9F1039009FF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86668F2A2C9F1039009FF8CB /* Build configuration list for PBXNativeTarget "Elm iOS TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86668F2B2C9F1039009FF8CB /* Debug */,
+				86668F2C2C9F1039009FF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86668EF82C9F1036009FF8CB /* Project object */;
+}
