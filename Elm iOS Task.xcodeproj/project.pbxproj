@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10F44A6536059AA756EBFF10 /* Pods_Elm_iOS_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7788FA660C3C52F02D6A7071 /* Pods_Elm_iOS_TaskTests.framework */; };
+		6053629C9D7E1B6426A96F15 /* Pods_Elm_iOS_Task_Elm_iOS_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0645D1CDEDFFA9FB86DA1761 /* Pods_Elm_iOS_Task_Elm_iOS_TaskUITests.framework */; };
+		860C7D972C9F99CA00E86670 /* EditIncidentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C7D962C9F99CA00E86670 /* EditIncidentViewModel.swift */; };
+		860C7D992C9F9F3B00E86670 /* EditIncidentRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C7D982C9F9F3B00E86670 /* EditIncidentRequestBuilder.swift */; };
+		860C7D9E2C9FB06900E86670 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C7D9D2C9FB06900E86670 /* HomeView.swift */; };
+		860C7DA02C9FB07C00E86670 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C7D9F2C9FB07C00E86670 /* HomeViewModel.swift */; };
+		860C7DA32C9FB18800E86670 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C7DA22C9FB18800E86670 /* LoaderView.swift */; };
+		860C7DA82C9FB4A300E86670 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C7DA72C9FB4A300E86670 /* ChartView.swift */; };
+		860C7DAC2CA0017800E86670 /* ErrorAlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C7DAB2CA0017800E86670 /* ErrorAlertModifier.swift */; };
 		86668F042C9F1036009FF8CB /* Elm_iOS_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F032C9F1036009FF8CB /* Elm_iOS_TaskApp.swift */; };
-		86668F062C9F1036009FF8CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F052C9F1036009FF8CB /* ContentView.swift */; };
+		86668F062C9F1036009FF8CB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F052C9F1036009FF8CB /* LoginView.swift */; };
 		86668F082C9F1038009FF8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86668F072C9F1038009FF8CB /* Assets.xcassets */; };
 		86668F0B2C9F1038009FF8CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86668F0A2C9F1038009FF8CB /* Preview Assets.xcassets */; };
 		86668F152C9F1039009FF8CB /* Elm_iOS_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F142C9F1039009FF8CB /* Elm_iOS_TaskTests.swift */; };
 		86668F1F2C9F1039009FF8CB /* Elm_iOS_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F1E2C9F1039009FF8CB /* Elm_iOS_TaskUITests.swift */; };
 		86668F212C9F1039009FF8CB /* Elm_iOS_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F202C9F1039009FF8CB /* Elm_iOS_TaskUITestsLaunchTests.swift */; };
+		86668F312C9F13C5009FF8CB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F302C9F13C5009FF8CB /* LoginViewModel.swift */; };
+		86668F342C9F1454009FF8CB /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F332C9F1454009FF8CB /* RequestBuilder.swift */; };
+		86668F362C9F146E009FF8CB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F352C9F146E009FF8CB /* NetworkManager.swift */; };
+		86668F382C9F148D009FF8CB /* MethodTypeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F372C9F148D009FF8CB /* MethodTypeMapper.swift */; };
+		86668F3A2C9F16E4009FF8CB /* LoginResultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F392C9F16E4009FF8CB /* LoginResultBuilder.swift */; };
+		86668F452C9F216A009FF8CB /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F442C9F216A009FF8CB /* VerificationView.swift */; };
+		86668F472C9F4A52009FF8CB /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F462C9F4A52009FF8CB /* VerificationViewModel.swift */; };
+		86668F492C9F4B03009FF8CB /* VerifyOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F482C9F4B03009FF8CB /* VerifyOTP.swift */; };
+		86668F4B2C9F4BA9009FF8CB /* VerifyOTPRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F4A2C9F4BA9009FF8CB /* VerifyOTPRequestBuilder.swift */; };
+		86668F4E2C9F52DC009FF8CB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F4D2C9F52DC009FF8CB /* AppView.swift */; };
+		86668F512C9F5307009FF8CB /* IncidentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F502C9F5307009FF8CB /* IncidentList.swift */; };
+		86668F552C9F5513009FF8CB /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F542C9F5513009FF8CB /* AppViewModel.swift */; };
+		86668F5A2C9F65D0009FF8CB /* AuthenticationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F592C9F65D0009FF8CB /* AuthenticationHelper.swift */; };
+		86668F5D2C9F6C35009FF8CB /* IncidentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F5C2C9F6C35009FF8CB /* IncidentListViewModel.swift */; };
+		86668F652C9F6E0F009FF8CB /* Incident.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F642C9F6E0F009FF8CB /* Incident.swift */; };
+		86668F672C9F7012009FF8CB /* IncidentListRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F662C9F7012009FF8CB /* IncidentListRequestBuilder.swift */; };
+		86668F6F2C9F8656009FF8CB /* IncidentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F6E2C9F8656009FF8CB /* IncidentFormView.swift */; };
+		86668F712C9F8B3C009FF8CB /* AddIncidentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F702C9F8B3C009FF8CB /* AddIncidentViewModel.swift */; };
+		86668F732C9F8DB6009FF8CB /* AddIncidentRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F722C9F8DB6009FF8CB /* AddIncidentRequestBuilder.swift */; };
+		86668F752C9F9575009FF8CB /* IncidentFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86668F742C9F9575009FF8CB /* IncidentFormViewModel.swift */; };
+		D6976CF41C5F23FED8614E7A /* Pods_Elm_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42BCEF7A7BBA19C9109AB56 /* Pods_Elm_iOS_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +64,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045FDEA5B48588D8FAE72214 /* Pods-Elm iOS TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elm iOS TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Elm iOS TaskTests/Pods-Elm iOS TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		0645D1CDEDFFA9FB86DA1761 /* Pods_Elm_iOS_Task_Elm_iOS_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elm_iOS_Task_Elm_iOS_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF668C3509F3B1103956CDA /* Pods-Elm iOS Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elm iOS Task.release.xcconfig"; path = "Target Support Files/Pods-Elm iOS Task/Pods-Elm iOS Task.release.xcconfig"; sourceTree = "<group>"; };
+		609CC1C78EBE2E1942311A1A /* Pods-Elm iOS Task-Elm iOS TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elm iOS Task-Elm iOS TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Elm iOS Task-Elm iOS TaskUITests/Pods-Elm iOS Task-Elm iOS TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63433D68412E8A698A2C374E /* Pods-Elm iOS TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elm iOS TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Elm iOS TaskTests/Pods-Elm iOS TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7788FA660C3C52F02D6A7071 /* Pods_Elm_iOS_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elm_iOS_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		860C7D962C9F99CA00E86670 /* EditIncidentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditIncidentViewModel.swift; sourceTree = "<group>"; };
+		860C7D982C9F9F3B00E86670 /* EditIncidentRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditIncidentRequestBuilder.swift; sourceTree = "<group>"; };
+		860C7D9D2C9FB06900E86670 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		860C7D9F2C9FB07C00E86670 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		860C7DA22C9FB18800E86670 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		860C7DA72C9FB4A300E86670 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		860C7DAB2CA0017800E86670 /* ErrorAlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertModifier.swift; sourceTree = "<group>"; };
 		86668F002C9F1036009FF8CB /* Elm iOS Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elm iOS Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86668F032C9F1036009FF8CB /* Elm_iOS_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elm_iOS_TaskApp.swift; sourceTree = "<group>"; };
-		86668F052C9F1036009FF8CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86668F052C9F1036009FF8CB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		86668F072C9F1038009FF8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86668F0A2C9F1038009FF8CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86668F102C9F1039009FF8CB /* Elm iOS TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elm iOS TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +87,29 @@
 		86668F1A2C9F1039009FF8CB /* Elm iOS TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elm iOS TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86668F1E2C9F1039009FF8CB /* Elm_iOS_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elm_iOS_TaskUITests.swift; sourceTree = "<group>"; };
 		86668F202C9F1039009FF8CB /* Elm_iOS_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elm_iOS_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86668F302C9F13C5009FF8CB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		86668F332C9F1454009FF8CB /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		86668F352C9F146E009FF8CB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		86668F372C9F148D009FF8CB /* MethodTypeMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodTypeMapper.swift; sourceTree = "<group>"; };
+		86668F392C9F16E4009FF8CB /* LoginResultBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResultBuilder.swift; sourceTree = "<group>"; };
+		86668F442C9F216A009FF8CB /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		86668F462C9F4A52009FF8CB /* VerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
+		86668F482C9F4B03009FF8CB /* VerifyOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTP.swift; sourceTree = "<group>"; };
+		86668F4A2C9F4BA9009FF8CB /* VerifyOTPRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPRequestBuilder.swift; sourceTree = "<group>"; };
+		86668F4D2C9F52DC009FF8CB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		86668F502C9F5307009FF8CB /* IncidentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentList.swift; sourceTree = "<group>"; };
+		86668F542C9F5513009FF8CB /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		86668F592C9F65D0009FF8CB /* AuthenticationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHelper.swift; sourceTree = "<group>"; };
+		86668F5C2C9F6C35009FF8CB /* IncidentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentListViewModel.swift; sourceTree = "<group>"; };
+		86668F642C9F6E0F009FF8CB /* Incident.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incident.swift; sourceTree = "<group>"; };
+		86668F662C9F7012009FF8CB /* IncidentListRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentListRequestBuilder.swift; sourceTree = "<group>"; };
+		86668F6E2C9F8656009FF8CB /* IncidentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentFormView.swift; sourceTree = "<group>"; };
+		86668F702C9F8B3C009FF8CB /* AddIncidentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIncidentViewModel.swift; sourceTree = "<group>"; };
+		86668F722C9F8DB6009FF8CB /* AddIncidentRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIncidentRequestBuilder.swift; sourceTree = "<group>"; };
+		86668F742C9F9575009FF8CB /* IncidentFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentFormViewModel.swift; sourceTree = "<group>"; };
+		8D0B032290EAF469291A0EA5 /* Pods-Elm iOS Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elm iOS Task.debug.xcconfig"; path = "Target Support Files/Pods-Elm iOS Task/Pods-Elm iOS Task.debug.xcconfig"; sourceTree = "<group>"; };
+		9EF6D96240D3742891B7C1C9 /* Pods-Elm iOS Task-Elm iOS TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elm iOS Task-Elm iOS TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Elm iOS Task-Elm iOS TaskUITests/Pods-Elm iOS Task-Elm iOS TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A42BCEF7A7BBA19C9109AB56 /* Pods_Elm_iOS_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elm_iOS_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6976CF41C5F23FED8614E7A /* Pods_Elm_iOS_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F44A6536059AA756EBFF10 /* Pods_Elm_iOS_TaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +133,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6053629C9D7E1B6426A96F15 /* Pods_Elm_iOS_Task_Elm_iOS_TaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860C7D9A2C9FB02A00E86670 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				860C7D9C2C9FB04E00E86670 /* Viewodel */,
+				860C7D9B2C9FB04100E86670 /* View */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		860C7D9B2C9FB04100E86670 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				860C7D9D2C9FB06900E86670 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		860C7D9C2C9FB04E00E86670 /* Viewodel */ = {
+			isa = PBXGroup;
+			children = (
+				86668F662C9F7012009FF8CB /* IncidentListRequestBuilder.swift */,
+				860C7D9F2C9FB07C00E86670 /* HomeViewModel.swift */,
+			);
+			path = Viewodel;
+			sourceTree = "<group>";
+		};
+		860C7DA12C9FB16F00E86670 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				860C7DA22C9FB18800E86670 /* LoaderView.swift */,
+				860C7DAB2CA0017800E86670 /* ErrorAlertModifier.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		860C7DA42C9FB47700E86670 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				860C7DA52C9FB48000E86670 /* View */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+		860C7DA52C9FB48000E86670 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				860C7DA72C9FB4A300E86670 /* ChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		86668EF72C9F1036009FF8CB = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +198,8 @@
 				86668F132C9F1039009FF8CB /* Elm iOS TaskTests */,
 				86668F1D2C9F1039009FF8CB /* Elm iOS TaskUITests */,
 				86668F012C9F1036009FF8CB /* Products */,
+				CAA4EDDF7E89E263C3A86FEF /* Pods */,
+				D823785E1FA69782948BD825 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +216,10 @@
 		86668F022C9F1036009FF8CB /* Elm iOS Task */ = {
 			isa = PBXGroup;
 			children = (
+				86668F5E2C9F6D38009FF8CB /* Screens */,
+				86668F582C9F65A7009FF8CB /* Utilities */,
+				86668F322C9F1444009FF8CB /* Networking */,
 				86668F032C9F1036009FF8CB /* Elm_iOS_TaskApp.swift */,
-				86668F052C9F1036009FF8CB /* ContentView.swift */,
 				86668F072C9F1038009FF8CB /* Assets.xcassets */,
 				86668F092C9F1038009FF8CB /* Preview Content */,
 			);
@@ -127,6 +251,243 @@
 			path = "Elm iOS TaskUITests";
 			sourceTree = "<group>";
 		};
+		86668F2D2C9F1136009FF8CB /* Login  */ = {
+			isa = PBXGroup;
+			children = (
+				86668F2F2C9F114E009FF8CB /* ViewModel */,
+				86668F2E2C9F1145009FF8CB /* View */,
+			);
+			path = "Login ";
+			sourceTree = "<group>";
+		};
+		86668F2E2C9F1145009FF8CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86668F052C9F1036009FF8CB /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86668F2F2C9F114E009FF8CB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86668F302C9F13C5009FF8CB /* LoginViewModel.swift */,
+				86668F392C9F16E4009FF8CB /* LoginResultBuilder.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86668F322C9F1444009FF8CB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				86668F332C9F1454009FF8CB /* RequestBuilder.swift */,
+				86668F352C9F146E009FF8CB /* NetworkManager.swift */,
+				86668F372C9F148D009FF8CB /* MethodTypeMapper.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		86668F3E2C9F20BE009FF8CB /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				86668F412C9F20EB009FF8CB /* Model */,
+				86668F402C9F20E2009FF8CB /* ViewModel */,
+				86668F3F2C9F20DC009FF8CB /* View */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		86668F3F2C9F20DC009FF8CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86668F442C9F216A009FF8CB /* VerificationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86668F402C9F20E2009FF8CB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86668F462C9F4A52009FF8CB /* VerificationViewModel.swift */,
+				86668F4A2C9F4BA9009FF8CB /* VerifyOTPRequestBuilder.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86668F412C9F20EB009FF8CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86668F482C9F4B03009FF8CB /* VerifyOTP.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86668F4C2C9F52C9009FF8CB /* AppView */ = {
+			isa = PBXGroup;
+			children = (
+				86668F532C9F5501009FF8CB /* ViewModel */,
+				86668F522C9F54F8009FF8CB /* View */,
+			);
+			path = AppView;
+			sourceTree = "<group>";
+		};
+		86668F4F2C9F52EF009FF8CB /* IncidentList */ = {
+			isa = PBXGroup;
+			children = (
+				86668F632C9F6DF8009FF8CB /* Model */,
+				86668F5B2C9F6C1F009FF8CB /* ViewModel */,
+				86668F562C9F6538009FF8CB /* Viiew */,
+			);
+			path = IncidentList;
+			sourceTree = "<group>";
+		};
+		86668F522C9F54F8009FF8CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86668F4D2C9F52DC009FF8CB /* AppView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86668F532C9F5501009FF8CB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86668F542C9F5513009FF8CB /* AppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86668F562C9F6538009FF8CB /* Viiew */ = {
+			isa = PBXGroup;
+			children = (
+				86668F502C9F5307009FF8CB /* IncidentList.swift */,
+			);
+			path = Viiew;
+			sourceTree = "<group>";
+		};
+		86668F572C9F6562009FF8CB /* AuthenticationHelper */ = {
+			isa = PBXGroup;
+			children = (
+				86668F592C9F65D0009FF8CB /* AuthenticationHelper.swift */,
+			);
+			path = AuthenticationHelper;
+			sourceTree = "<group>";
+		};
+		86668F582C9F65A7009FF8CB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				86668F572C9F6562009FF8CB /* AuthenticationHelper */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		86668F5B2C9F6C1F009FF8CB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86668F5C2C9F6C35009FF8CB /* IncidentListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86668F5E2C9F6D38009FF8CB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				860C7DA42C9FB47700E86670 /* ChartView */,
+				860C7DA12C9FB16F00E86670 /* Common */,
+				860C7D9A2C9FB02A00E86670 /* HomeView */,
+				86668F682C9F85E3009FF8CB /* IncidentFormView */,
+				86668F3E2C9F20BE009FF8CB /* Verification */,
+				86668F2D2C9F1136009FF8CB /* Login  */,
+				86668F4C2C9F52C9009FF8CB /* AppView */,
+				86668F4F2C9F52EF009FF8CB /* IncidentList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		86668F632C9F6DF8009FF8CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86668F642C9F6E0F009FF8CB /* Incident.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86668F682C9F85E3009FF8CB /* IncidentFormView */ = {
+			isa = PBXGroup;
+			children = (
+				86668F6B2C9F8601009FF8CB /* Model */,
+				86668F6A2C9F85F6009FF8CB /* ViewModel */,
+				86668F692C9F85EE009FF8CB /* View */,
+			);
+			path = IncidentFormView;
+			sourceTree = "<group>";
+		};
+		86668F692C9F85EE009FF8CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86668F6E2C9F8656009FF8CB /* IncidentFormView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86668F6A2C9F85F6009FF8CB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86668F772C9F960B009FF8CB /* AddMode */,
+				86668F762C9F95FE009FF8CB /* EditMode */,
+				86668F742C9F9575009FF8CB /* IncidentFormViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86668F6B2C9F8601009FF8CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86668F762C9F95FE009FF8CB /* EditMode */ = {
+			isa = PBXGroup;
+			children = (
+				860C7D962C9F99CA00E86670 /* EditIncidentViewModel.swift */,
+				860C7D982C9F9F3B00E86670 /* EditIncidentRequestBuilder.swift */,
+			);
+			path = EditMode;
+			sourceTree = "<group>";
+		};
+		86668F772C9F960B009FF8CB /* AddMode */ = {
+			isa = PBXGroup;
+			children = (
+				86668F722C9F8DB6009FF8CB /* AddIncidentRequestBuilder.swift */,
+				86668F702C9F8B3C009FF8CB /* AddIncidentViewModel.swift */,
+			);
+			path = AddMode;
+			sourceTree = "<group>";
+		};
+		CAA4EDDF7E89E263C3A86FEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D0B032290EAF469291A0EA5 /* Pods-Elm iOS Task.debug.xcconfig */,
+				1EF668C3509F3B1103956CDA /* Pods-Elm iOS Task.release.xcconfig */,
+				609CC1C78EBE2E1942311A1A /* Pods-Elm iOS Task-Elm iOS TaskUITests.debug.xcconfig */,
+				9EF6D96240D3742891B7C1C9 /* Pods-Elm iOS Task-Elm iOS TaskUITests.release.xcconfig */,
+				63433D68412E8A698A2C374E /* Pods-Elm iOS TaskTests.debug.xcconfig */,
+				045FDEA5B48588D8FAE72214 /* Pods-Elm iOS TaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D823785E1FA69782948BD825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A42BCEF7A7BBA19C9109AB56 /* Pods_Elm_iOS_Task.framework */,
+				0645D1CDEDFFA9FB86DA1761 /* Pods_Elm_iOS_Task_Elm_iOS_TaskUITests.framework */,
+				7788FA660C3C52F02D6A7071 /* Pods_Elm_iOS_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +495,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86668F242C9F1039009FF8CB /* Build configuration list for PBXNativeTarget "Elm iOS Task" */;
 			buildPhases = (
+				252916C0F51EC0908BD6D8DB /* [CP] Check Pods Manifest.lock */,
 				86668EFC2C9F1036009FF8CB /* Sources */,
 				86668EFD2C9F1036009FF8CB /* Frameworks */,
 				86668EFE2C9F1036009FF8CB /* Resources */,
+				96B1C993A020592714DBF736 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +514,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86668F272C9F1039009FF8CB /* Build configuration list for PBXNativeTarget "Elm iOS TaskTests" */;
 			buildPhases = (
+				92D0914BB305F33AD9F4D751 /* [CP] Check Pods Manifest.lock */,
 				86668F0C2C9F1039009FF8CB /* Sources */,
 				86668F0D2C9F1039009FF8CB /* Frameworks */,
 				86668F0E2C9F1039009FF8CB /* Resources */,
@@ -169,9 +533,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86668F2A2C9F1039009FF8CB /* Build configuration list for PBXNativeTarget "Elm iOS TaskUITests" */;
 			buildPhases = (
+				EDC5A0A7DE56EBD9593D8EDA /* [CP] Check Pods Manifest.lock */,
 				86668F162C9F1039009FF8CB /* Sources */,
 				86668F172C9F1039009FF8CB /* Frameworks */,
 				86668F182C9F1039009FF8CB /* Resources */,
+				B9F11D3DA47CE1EEA7EDDB9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +618,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		252916C0F51EC0908BD6D8DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elm iOS Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D0914BB305F33AD9F4D751 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elm iOS TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B1C993A020592714DBF736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elm iOS Task/Pods-Elm iOS Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elm iOS Task/Pods-Elm iOS Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Elm iOS Task/Pods-Elm iOS Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F11D3DA47CE1EEA7EDDB9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elm iOS Task-Elm iOS TaskUITests/Pods-Elm iOS Task-Elm iOS TaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elm iOS Task-Elm iOS TaskUITests/Pods-Elm iOS Task-Elm iOS TaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Elm iOS Task-Elm iOS TaskUITests/Pods-Elm iOS Task-Elm iOS TaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC5A0A7DE56EBD9593D8EDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elm iOS Task-Elm iOS TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86668EFC2C9F1036009FF8CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86668F062C9F1036009FF8CB /* ContentView.swift in Sources */,
+				86668F672C9F7012009FF8CB /* IncidentListRequestBuilder.swift in Sources */,
+				86668F5D2C9F6C35009FF8CB /* IncidentListViewModel.swift in Sources */,
+				86668F652C9F6E0F009FF8CB /* Incident.swift in Sources */,
+				860C7DA82C9FB4A300E86670 /* ChartView.swift in Sources */,
+				860C7D9E2C9FB06900E86670 /* HomeView.swift in Sources */,
+				860C7D972C9F99CA00E86670 /* EditIncidentViewModel.swift in Sources */,
+				86668F4E2C9F52DC009FF8CB /* AppView.swift in Sources */,
+				86668F512C9F5307009FF8CB /* IncidentList.swift in Sources */,
+				86668F732C9F8DB6009FF8CB /* AddIncidentRequestBuilder.swift in Sources */,
+				86668F4B2C9F4BA9009FF8CB /* VerifyOTPRequestBuilder.swift in Sources */,
+				86668F6F2C9F8656009FF8CB /* IncidentFormView.swift in Sources */,
+				86668F062C9F1036009FF8CB /* LoginView.swift in Sources */,
+				86668F5A2C9F65D0009FF8CB /* AuthenticationHelper.swift in Sources */,
+				86668F492C9F4B03009FF8CB /* VerifyOTP.swift in Sources */,
+				86668F552C9F5513009FF8CB /* AppViewModel.swift in Sources */,
+				860C7DAC2CA0017800E86670 /* ErrorAlertModifier.swift in Sources */,
 				86668F042C9F1036009FF8CB /* Elm_iOS_TaskApp.swift in Sources */,
+				860C7D992C9F9F3B00E86670 /* EditIncidentRequestBuilder.swift in Sources */,
+				86668F712C9F8B3C009FF8CB /* AddIncidentViewModel.swift in Sources */,
+				860C7DA32C9FB18800E86670 /* LoaderView.swift in Sources */,
+				86668F362C9F146E009FF8CB /* NetworkManager.swift in Sources */,
+				86668F472C9F4A52009FF8CB /* VerificationViewModel.swift in Sources */,
+				86668F3A2C9F16E4009FF8CB /* LoginResultBuilder.swift in Sources */,
+				86668F312C9F13C5009FF8CB /* LoginViewModel.swift in Sources */,
+				860C7DA02C9FB07C00E86670 /* HomeViewModel.swift in Sources */,
+				86668F342C9F1454009FF8CB /* RequestBuilder.swift in Sources */,
+				86668F452C9F216A009FF8CB /* VerificationView.swift in Sources */,
+				86668F752C9F9575009FF8CB /* IncidentFormViewModel.swift in Sources */,
+				86668F382C9F148D009FF8CB /* MethodTypeMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +828,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +891,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -416,6 +912,7 @@
 		};
 		86668F252C9F1039009FF8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0B032290EAF469291A0EA5 /* Pods-Elm iOS Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +941,7 @@
 		};
 		86668F262C9F1039009FF8CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF668C3509F3B1103956CDA /* Pods-Elm iOS Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +970,7 @@
 		};
 		86668F282C9F1039009FF8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63433D68412E8A698A2C374E /* Pods-Elm iOS TaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +990,7 @@
 		};
 		86668F292C9F1039009FF8CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045FDEA5B48588D8FAE72214 /* Pods-Elm iOS TaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +1010,7 @@
 		};
 		86668F2B2C9F1039009FF8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609CC1C78EBE2E1942311A1A /* Pods-Elm iOS Task-Elm iOS TaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +1028,7 @@
 		};
 		86668F2C2C9F1039009FF8CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF6D96240D3742891B7C1C9 /* Pods-Elm iOS Task-Elm iOS TaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

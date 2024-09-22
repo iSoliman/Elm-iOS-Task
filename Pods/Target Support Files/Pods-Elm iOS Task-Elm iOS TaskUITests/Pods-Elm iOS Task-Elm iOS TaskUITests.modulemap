@@ -1,0 +1,6 @@
+framework module Pods_Elm_iOS_Task_Elm_iOS_TaskUITests {
+  umbrella header "Pods-Elm iOS Task-Elm iOS TaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
